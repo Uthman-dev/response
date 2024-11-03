@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gdc manenos</title>
+  </head>
+  <body>
+    <nav>
+      <logo class="logo">GSDC</logo>
+      <div class="nav_wrapper">
+        <a href="" id="Home">Home</a>
+        <a href="" id="About">About</a>
+        <a href="" id="Contact">Contact</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <header>Age Calculator</header>
+      <div class="inputs">
+        <label for="Day">Day:</label>
+        <input type="number" id="Day" min="1" max="31" />
+
+        <label for="Month">Month:</label>
+        <input type="number" id="Month" min="1" max="12" />
+
+        <label for="Year">Year:</label>
+        <input type="text" id="Year" min="1900" max="2024" />
+      </div>
+      <br />
+      <hr />
+
+      <button onclick="calculateAge()">Calculate</button>
+
+      <div class="output">
+        <h1>-- Years</h1>
+        <h1>-- Months</h1>
+        <h1>-- Days</h1>
+      </div>
+
+      
+
+      <script src="index.js"></script>
+    </div>
+  </body>
+</html>
